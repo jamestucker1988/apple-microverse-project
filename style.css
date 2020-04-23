@@ -33,15 +33,11 @@ nav {
     margin: auto;
     margin-top: 5rem;
     margin-left: 10rem;
-
-
-    background: linear-gradient(#f69d3c, #3f87a6);
+    /*    background: linear-gradient(#f69d3c, #3f87a6);*/
 }
 
 label {
-    display: inline-flex;
-    border: 5px solid grey;
-    align-self: center;
+    border: 8px solid grey;
     height: auto;
 }
 
@@ -54,42 +50,40 @@ button:nth-child(6),
 button:nth-child(7),
 button:nth-child(8) {
     flex: 1;
-    /*    background-color: grey;*/
     background-image: url("image/globalnav_text.svg");
     background-repeat: no-repeat;
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
     border-color: grey;
     border-right-width: thin;
-
+    height: auto;
 }
 
 input {
     position: relative;
     padding: auto;
     border: none;
-    outline: none;
-    /*    background-color: white;*/
-    /*    border-color: white;*/
-    /*    border-spacing: none;*/
-    /*
-    border-right-width: thin;outline: 8px ridge rgba(170, 50, 220, .6);
-*/
+    border-right-width: thin;
+    /*    outline: 8px ridge rgba(170, 50, 220, .6);*/
+    background-image: url("image/iconfinder_User_Interface-25_2044263.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
     border-radius: 2rem;
+    flex: 1;
+    height: 28px;
 }
 
-label i {
+/*label i {
     color: white;
-    /*    border: none;*/
-    background-color: white;
-    /*    outline: none;*/
-    color: grey;
-    /*
-    outline-width: none;
-    border-right: none;
-*/
+        border: none;
+background-color: white;
+    outline: none;
+color: grey;
+outline-width: none;
+border-right: none;
 }
-
+*/
 button:first-child {
     background-position: 50% 0;
     border-left-width: thin;
