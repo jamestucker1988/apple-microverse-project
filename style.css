@@ -15,7 +15,7 @@ main {
     width: auto;
     height: 600px;
     position: relative;
-    background-image: url("your_verse_title_small.png"), url("your_verse_subhead_small.png"), url("cta_your_verse_27pt.png"), url("expedition_hero.jpg");
+    background-image: url("image/your_verse_title_small.png"), url("image/your_verse_subhead_small.png"), url("image/cta_your_verse_27pt.png"), url("image/expedition_hero.jpg");
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-size: 50% 20%, 80% 20%, 80% 20%, 100% 100%;
     background-position: top 10rem left 5rem,
@@ -52,7 +52,7 @@ button:nth-child(7),
 button:nth-child(8) {
     flex: 1;
     background-color: grey;
-    background-image: url("globalnav_text.svg");
+    background-image: url("image/globalnav_text.svg");
     background-repeat: no-repeat;
 
     padding-top: 0.25rem;
@@ -137,7 +137,7 @@ button:nth-child(8) {
 /*position: relative;*/
 /*    max-width: 80%;*/
 /*    border-image-width: auto;*/
-flex: 1;
+/*flex: 1;*/
 
 /*    margin-left: auto;*/
 /*    margin-right: auto;*/
