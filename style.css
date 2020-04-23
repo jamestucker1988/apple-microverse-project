@@ -33,6 +33,9 @@ nav {
     margin: auto;
     margin-top: 5rem;
     margin-left: 10rem;
+
+
+    background: linear-gradient(#f69d3c, #3f87a6);
 }
 
 label {
@@ -51,33 +54,37 @@ button:nth-child(6),
 button:nth-child(7),
 button:nth-child(8) {
     flex: 1;
-    background-color: grey;
+    /*    background-color: grey;*/
     background-image: url("image/globalnav_text.svg");
     background-repeat: no-repeat;
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
     border-color: grey;
     border-right-width: thin;
+
 }
 
 input {
     position: relative;
     padding: auto;
-        border: none;
+    border: none;
     outline: none;
-    background-color: white;
-    border-color: white;
+    /*    background-color: white;*/
+    /*    border-color: white;*/
     /*    border-spacing: none;*/
-    border-right-width: thin;
+    /*
+    border-right-width: thin;outline: 8px ridge rgba(170, 50, 220, .6);
+*/
+    border-radius: 2rem;
 }
 
 label i {
     color: white;
-/*    border: none;*/
+    /*    border: none;*/
     background-color: white;
-/*    outline: none;*/
+    /*    outline: none;*/
     color: grey;
-/*
+    /*
     outline-width: none;
     border-right: none;
 */
