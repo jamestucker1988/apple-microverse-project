@@ -33,7 +33,6 @@ nav {
     margin: auto;
     margin-top: 5rem;
     margin-left: 10rem;
-    background-color: linear-gradient(to right, rgb(5, 5, 5) 0, rgb(133, 133, 133) 25%, rgb(117, 117, 116)50%, rgb(92, 91, 90) 75%, rgb(18, 17, 14) 100%);
 }
 
 label {
@@ -52,10 +51,9 @@ button:nth-child(6),
 button:nth-child(7),
 button:nth-child(8) {
     flex: 1;
-    /*    background-color: grey;*/
+    background-color: grey;
     background-image: url("image/globalnav_text.svg");
     background-repeat: no-repeat;
-
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
     border-color: grey;
@@ -65,27 +63,24 @@ button:nth-child(8) {
 input {
     position: relative;
     padding: auto;
-    border: none;
-    background-color: white;
-    border: none;
-    border-color: white;
-    /*    border-image-slice: 10%;*/
-    border-spacing: inherit;
+        border: none;
     outline: none;
+    background-color: white;
+    border-color: white;
+    /*    border-spacing: none;*/
     border-right-width: thin;
-    /*    border-top-right-radius: 45%;*/
-    /*    border-bottom-right-radius: 45%;*/
 }
 
 label i {
     color: white;
-    border: none;
+/*    border: none;*/
     background-color: white;
-    /*    border-top-left-radius: 70%;*/
-    /*    border-bottom-left-radius: 70%;*/
+/*    outline: none;*/
     color: grey;
-    outline-width: thin;
+/*
+    outline-width: none;
     border-right: none;
+*/
 }
 
 button:first-child {
@@ -121,32 +116,6 @@ button:nth-child(8) {
     background-position: 50% -30px;
 }
 
-
-
-/*
-.background {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    align-content: center;
-}
-*/
-/*.grid-image > img:first-child {
-    /*    align-self: flex-start;*/
-/*    margin-top: 25%;*/
-/*position: relative;*/
-/*    max-width: 80%;*/
-/*    border-image-width: auto;*/
-/*flex: 1;*/
-
-/*    margin-left: auto;*/
-/*    margin-right: auto;*/
-/*grid-area: 2/1/3/2;*/
-/*    grid-auto-rows: auto;*/
-/*    grid-gap: 0rem;*
-}
-*/
 img {
     width: 100%;
 }
@@ -155,42 +124,19 @@ body > div:first-child {
     grid-area: 2/1/3/2;
     align-self: flex-end;
     margin-left: 10%;
-    /*    background-image: url("promo_30_years.jpg");*/
-    /*background-repeat: no-repeat;*/
-    /*    background-size: 10% 10%;*/
-    /*
-    grid-column: 1/2;
-    grid-row: 2/3;
-*/
-    /*    flex: 1;*/
 }
 
 */ body > img:nth-child(2) {
     grid-area: 2/2/3/3;
-    /*
-    grid-column: 2/3;
-    grid-row: 2/3;
-*/
-    /*    flex: 1;*/
-    /*
-    background-image: image();
-    background-repeat: no-repeat;
-*/
 }
 
 body > img:nth-child(3) {
     grid-area: 2/3/3/4;
-    /*
-    grid-column: 3/4;
-    grid-row: 2/3;
-*/
-    /*    flex: 1;*/
 }
 
 body > img:nth-child(4) {
     grid-column: 4/5;
     grid-row: 2/3;
-    /*    flex: 1;*/
 }
 
 ul {
@@ -233,12 +179,6 @@ ul > li:nth-child(2) > a {
     list-style: none;
 }
 
-/*
-ul > img li {
-    width: auto;
-    border: 1px solid pink;
-}
-*/
 #xyz {
     width: auto;
     height: 100%;
