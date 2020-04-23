@@ -33,6 +33,7 @@ nav {
     margin: auto;
     margin-top: 5rem;
     margin-left: 10rem;
+    background-color: linear-gradient(to right, rgb(5, 5, 5) 0, rgb(133, 133, 133) 25%, rgb(117, 117, 116)50%, rgb(92, 91, 90) 75%, rgb(18, 17, 14) 100%);
 }
 
 label {
@@ -51,7 +52,7 @@ button:nth-child(6),
 button:nth-child(7),
 button:nth-child(8) {
     flex: 1;
-    background-color: grey;
+    /*    background-color: grey;*/
     background-image: url("image/globalnav_text.svg");
     background-repeat: no-repeat;
 
@@ -147,7 +148,7 @@ button:nth-child(8) {
 }
 */
 img {
-    width: 120%;
+    width: 100%;
 }
 
 body > div:first-child {
