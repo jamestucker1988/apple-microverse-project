@@ -17,7 +17,7 @@ main {
     position: relative;
     background-image: url("image/your_verse_title_small.png"), url("image/your_verse_subhead_small.png"), url("image/cta_your_verse_27pt.png"), url("image/expedition_hero.jpg");
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-    background-size: 50% 20%, 80% 20%, 80% 20%, 100% 100%;
+    background-size: 80% 20%, 80% 20%, 80% 20%, 100% 100%;
     background-position: top 10rem left 5rem,
         top 15rem left 5rem, top 25rem left 5rem, left 0 top 0;
     grid-area: 1/1/2/-1;
