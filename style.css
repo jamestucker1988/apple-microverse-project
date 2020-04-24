@@ -33,6 +33,9 @@ nav > ul {
     margin: auto;
     margin-top: 5rem;
     margin-left: 10rem;
+    background-color: yellow;
+    list-style: none;
+
 
 }
 
@@ -45,7 +48,7 @@ label {
 
 
 
-nav > li {
+nav > ul > li {
     flex: 1;
     /*    background-image: url("image/globalnav_text.svg");*/
     /*    background-repeat: no-repeat;*/
@@ -54,7 +57,12 @@ nav > li {
     border-color: grey;
     border-right-width: thin;
     height: auto;
-    background-color: none;
+    background-color: green;
+    text-decoration: none;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
 }
 
 */
@@ -157,20 +165,21 @@ ul > li:first-child {
     list-style: none;
 }
 
+/*
 ul > li:nth-child(2) {
     display: flex;
     justify-content: center;
-    /*    border: 0.1rem thin grey;*/
+    border: 0.1rem thin grey;
     text-decoration: none;
     padding-top: 0.5rem;
-    /*    flex-basis: 0.5rem;*/
+    flex-basis: 0.5rem;
     cursor: pointer;
     grid-column: 2/3;
     border-right-width: thin;
     outline: none;
-}
+}*/
 
-ul > li:nth-child(2) > a {
+*/ ul > li:nth-child(2) > a {
     border-right-style: solid;
     border-right-width: thin;
     border-color: grey;
