@@ -33,10 +33,14 @@ nav > ul {
     margin: auto;
     margin-top: 5rem;
     margin-left: 10rem;
-    background-color: yellow;
+    /*    background-color: yellow;*/
     list-style: none;
+    /*    background: linear-gradient(to right, rgb(26, 25, 24), rgb(10, 10, 10));*/
 
+}
 
+nav > ul:hover {
+    background-color: grey;
 }
 
 /*
@@ -48,21 +52,52 @@ label {
 
 
 
-nav > ul > li {
+nav > ul > li,
+input {
+    position: relative;
     flex: 1;
     /*    background-image: url("image/globalnav_text.svg");*/
     /*    background-repeat: no-repeat;*/
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
-    border-color: grey;
-    border-right-width: thin;
+/*    border-color: black;*/
+
     height: auto;
-    background-color: green;
-    text-decoration: none;
+    /*    background-color: green;*/
+    /*    text-decoration: none;*/
+    border-right-width: thick;
+    border-color: aqua;
+}
+
+input {
+    outline: none;
+    border: none;
+    background-color: white;
 }
 
 nav > ul > li > a {
     text-decoration: none;
+
+
+
+}
+
+.fa-search {
+    color: aqua;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: grey;
+    padding-top: 0.2rem;
+
+}
+
+.fa-apple {
+    position: absolute;
+    color: grey;
+
+    right: 50%;
+
 }
 
 */
