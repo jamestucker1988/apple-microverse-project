@@ -24,22 +24,23 @@ main {
     align-self: stretch;
 }
 
+nav {
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+
 nav > ul {
     position: relative;
     width: 50%;
     height: auto;
     display: flex;
-    justify-content: flex-start;
-    margin: auto;
-    margin-top: 5rem;
-    margin-left: 10rem;
-    /*    background-color: yellow;*/
+    justify-content: space-around;
+    background-color: yellow;
     list-style: none;
     /*    background: linear-gradient(to right, rgb(26, 25, 24), rgb(10, 10, 10));*/
-
 }
 
-nav > ul:hover {
+nav > ul > li:hover {
     background-color: grey;
 }
 
@@ -49,9 +50,6 @@ label {
     height: auto;
 }
 */
-
-
-
 nav > ul > li,
 input {
     position: relative;
@@ -60,13 +58,13 @@ input {
     /*    background-repeat: no-repeat;*/
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
-/*    border-color: black;*/
-
+    /*    border-color: black;*/
     height: auto;
     /*    background-color: green;*/
     /*    text-decoration: none;*/
-    border-right-width: thick;
     border-color: aqua;
+    border-right-width: thick;
+    border-color: red;
 }
 
 input {
@@ -77,9 +75,6 @@ input {
 
 nav > ul > li > a {
     text-decoration: none;
-
-
-
 }
 
 .fa-search {
@@ -89,18 +84,15 @@ nav > ul > li > a {
     background-color: white;
     color: grey;
     padding-top: 0.2rem;
-
 }
 
 .fa-apple {
     position: absolute;
     color: grey;
-
-    right: 50%;
-
 }
 
 */
+
 /*
 input {
     position: relative;
@@ -117,7 +109,6 @@ input {
     height: 28px;
 }
 */
-
 /*label i {
     color: white;
         border: none;
@@ -133,36 +124,28 @@ button:first-child {
     background-position: 50% 0;
     border-left-width: thin;
 }
-
 button:nth-child(2) {
     background-position: 50% -60px;
 }
-
 button:nth-child(3) {
     background-position: 50% -90px;
 }
-
 button:nth-child(4) {
     background-position: 50% -120px;
 }
-
 button:nth-child(5) {
     background-position: 50% -150px;
 }
-
 button:nth-child(6) {
     background-position: 50% -180px;
 }
-
 button:nth-child(7) {
     background-position: 50% -210px;
 }
-
 button:nth-child(8) {
     background-position: 50% -30px;
 }
 */
-
 img {
     width: 100%;
 }
@@ -173,7 +156,7 @@ body > div:first-child {
     margin-left: 10%;
 }
 
-*/ body > img:nth-child(2) {
+body > img:nth-child(2) {
     grid-area: 2/2/3/3;
 }
 
@@ -186,20 +169,22 @@ body > img:nth-child(4) {
     grid-row: 2/3;
 }
 
+/*
 ul {
     grid-area: 3/1/4/-1;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1.8rem 1.8rem;
 }
-
+*/
+/*
 ul > li:first-child {
     grid-column: 1/2;
     grid-row: 1/2;
     padding-top: 0.5rem;
     list-style: none;
 }
-
+*/
 /*
 ul > li:nth-child(2) {
     display: flex;
@@ -213,20 +198,20 @@ ul > li:nth-child(2) {
     border-right-width: thin;
     outline: none;
 }*/
-
-*/ ul > li:nth-child(2) > a {
+/*
+ ul > li:nth-child(2) > a {
     border-right-style: solid;
     border-right-width: thin;
     border-color: grey;
     height: auto;
     padding-left: 0.4rem;
     padding-right: 0.4rem;
-}
-
-> ul > li:nth-child(3) {
-    list-style: none;
-}
-
+}*/
+/*
+ ul > li:nth-child(3) {
+     list-style: none;
+ }
+*/
 #xyz {
     width: auto;
     height: 100%;
