@@ -14,7 +14,7 @@ body {
 main {
     width: auto;
     height: 600px;
-    position: relative;
+    /*    position: relative;*/
     background-image: url("image/your_verse_title_small.png"), url("image/your_verse_subhead_small.png"), url("image/cta_your_verse_27pt.png"), url("image/expedition_hero.jpg");
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-size: 80% 20%, 80% 20%, 80% 20%, 100% 100%;
@@ -25,25 +25,36 @@ main {
 }
 
 nav {
-
-
     margin-top: 5rem;
     margin-left: 10rem;
 }
 
-nav > ul {
-    position: relative;
+nav {
+    /*    position: relative;*/
     width: 50%;
-    height: auto;
+    height: 2rem;
     display: flex;
     justify-content: space-between;
-    /*    background-color: yellow;*/
-    list-style: none;
-    /*    background: linear-gradient(to right, rgb(26, 25, 24), rgb(10, 10, 10));*/
+
+
+
+
+    background: linear-gradient(to right, rgb(100, 100, 100), rgb(10, 10, 10));
 }
 
-nav > ul > li:hover {
-    background-color: grey;
+nav > a {
+    text-decoration: none;
+    align-self: center;
+    padding-left: 0.5rem;
+}
+
+nav > a:hover {
+
+    text-decoration: underline;
+}
+
+nav > a > span:hover {
+    text-decoration: underline;
 }
 
 /*
@@ -52,9 +63,15 @@ label {
     height: auto;
 }
 */
-nav > ul > li,
-input {
+/*
+nav > ul > li {
     position: relative;
+}
+*/
+
+nav > a,
+input {
+    /*        position: relative;*/
     flex: 1;
     /*    background-image: url("image/globalnav_text.svg");*/
     /*    background-repeat: no-repeat;*/
@@ -64,9 +81,8 @@ input {
     height: auto;
     /*    background-color: green;*/
     /*    text-decoration: none;*/
-    border-color: aqua;
+    border-color: black;
     border-right-width: thick;
-    border-color: red;
 }
 
 input {
@@ -75,8 +91,11 @@ input {
     background-color: white;
 }
 
-nav > ul > li > a {
+nav > a {
     text-decoration: none;
+    position: relative;
+
+    color: grey;
 }
 
 .fa-search {
@@ -89,7 +108,15 @@ nav > ul > li > a {
 }
 
 .fa-apple {
-    position: absolute;
+
+    padding-left: 1rem;
+
+    /*
+    padding-left: 50%;
+    padding-top: 50%;*/
+
+
+
     color: grey;
 }
 
@@ -197,7 +224,6 @@ ul > li:first-child {
     border-right-width: thin;
     outline: none;
     /*    background-color: red;*/
-
 }
 
 .lower-right-ul > li:nth-child(2) > a {
