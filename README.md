@@ -1,6 +1,6 @@
 1 - apple-microverse-project# Project
 ​
-This is an assigned project where we were supposed to replicate/clone a Apple webpage as seen in the link:
+This is an assigned project where we were supposed to replicate/clone a Apple webpage as seen in the link:<a href="https://web.archive.org/web/20140301004610/http://www.apple.com/">click here</a>
 
 ​
 ​
@@ -20,7 +20,7 @@ This is an assigned project where we were supposed to replicate/clone a Apple we
 - Google icons (https://www.w3schools.com/icons/icons_reference.asp)
 ​
 ## Live Demo of our project
-​<a href="">click here</a>
+​<a href="https://raw.githack.com/jamestucker1988/apple-microverse-project/feature/index.html">click here</a>
 ​
 ## Author
 
