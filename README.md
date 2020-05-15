@@ -9,7 +9,7 @@ This is an assigned project where we were supposed to replicate/clone a Apple we
 
 
 ​
-![screenshot](image/Screenshot at 2020-05-15 10-40-05.png)
+![screenshot](image/x.png)
 
 
 
