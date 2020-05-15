@@ -6,17 +6,13 @@ This is an assigned project where we were supposed to replicate/clone a Apple we
 ​
 ## Preview of our webpage
 
-### Top of the webpage
+
+
 ​
-![screenshot](images/webpage_preview_1.PNG)
+![screenshot](image/Screenshot at 2020-05-15 10-40-05.png)
 
-### Middle of the webpage
 
-![screenshot 2](images/webpage_preview_3.PNG)
 
-### Bottom of the webpage
-
-![screenshot 3](images/webpage_preview_4.PNG)
 ​
 ## Built With
 - HTML5
@@ -24,7 +20,7 @@ This is an assigned project where we were supposed to replicate/clone a Apple we
 - Google icons (https://www.w3schools.com/icons/icons_reference.asp)
 ​
 ## Live Demo of our project
-​
+​<a href="">click here</a>
 ​
 ## Author
 
