@@ -69,10 +69,12 @@ ul li p a {
   color: #08c;
 }
 
+/*
 nav > a:hover,
 nav > a > span:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
+*/
 
 ul li p a:first-child {
   border-right-width: thin;
